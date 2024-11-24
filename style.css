@@ -103,6 +103,7 @@ header p {
 }
 .fg{
     font-size:30px;
+    justify-content: center;
     text-align: center;
     background-image: linear-gradient(to right, rgb(70, 92, 249) 30%, rgb(232, 74, 94) 90%);
     background-clip: text;
@@ -110,6 +111,7 @@ header p {
     -webkit-text-fill-color: transparent;
     background-color: #999;
     box-shadow: red 20px 10px rgba(0, 0, 0, 0.);
+    display:flex;
 }
 
 @media(max-width: 430px) {
